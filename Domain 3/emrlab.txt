@@ -31,7 +31,7 @@ L_RECEIPTDATE STRING,
 L_SHIPINSTRUCT STRING,
 L_SHIPMODE STRING, L_COMMENT STRING)
 ROW FORMAT DELIMITED FIELDS TERMINATED BY '|'
-LOCATION 's3://yourbucketname/emrdata/';
+LOCATION 's3://bigdatalab-west/emrdata/';
 
 
 Spark SQL setting (Turn off verbose logging):
